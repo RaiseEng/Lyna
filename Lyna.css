@@ -21,13 +21,13 @@
     flex-direction: column;
     align-items: center;
     max-width: 100%;
-    padding: 0 20px; /* Add padding to prevent content from touching the edges */
+    padding: 0 20px; 
 }
 
 #Lyna {
     display: block;
     margin: 0 auto;
-    max-width: 100%; /* Ensure the image fits within its container */
+    max-width: 100%;
     height: auto;
 }
 
@@ -35,25 +35,25 @@
     display: flex;
     justify-content: center;
     margin-top: 20px;
-    width: 100%; /* Make sure buttons span the entire width of the container */
+    width: 100%; 
 }
 
 .container .btn {
     position: relative;
     top: 0;
     left: 0;
-    width: 50%; /* Adjust button width for better spacing on mobile */
-    max-width: 250px; /* Limit maximum button width */
+    width: 50%;
+    max-width: 250px; 
     height: 50px;
-    margin: 0 5px; /* Add small margin between buttons */
+    margin: 0 5px; 
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 p#text {
-    text-align: center; /* Center-align text */
-    margin-top: 20px; /* Add some space between buttons and text */
+    text-align: center; 
+    margin-top: 20px;
 }
 
   .container .btn a {
@@ -74,7 +74,7 @@ p#text {
     color: #fff;
     font-weight: 400px;
     z-index: 1;
-    transition: 0.5s;
+    transition: 0.2s;
     backdrop-filter: blur(15px);
   }
   
@@ -94,7 +94,7 @@ p#text {
       transparent
     );
     transform: skewX(45deg) translate(0);
-    transition: 0.5s;
+    transition: 0.2s;
     filter: blur(0px);
   }
   .buttons .btn:hover a::before {
@@ -110,8 +110,8 @@ p#text {
     height: 10px;
     background: #f00;
     border-radius: 10px;
-    transition: 0.5s;
-    transition-delay: 0.5;
+    transition: 0.2s;
+    transition-delay: 0.2;
   }
   .buttons .btn:hover::before {
     bottom: 0;
@@ -130,8 +130,8 @@ p#text {
     height: 10px;
     background: #f00;
     border-radius: 10px;
-    transition: 0.5s;
-    transition-delay: 0.5;
+    transition: 0.2s;
+    transition-delay: 0.2;
   }
   .buttons .btn:hover::after {
     top: 0;
